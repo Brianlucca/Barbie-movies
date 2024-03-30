@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Home from '../screen/home-page';
 
 export default function RenderRoutes() {
@@ -6,6 +6,7 @@ export default function RenderRoutes() {
     <>
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Navigate to="/home" replace />} />
           <Route path="/home" element={<Home />} />
         </Routes>
       </BrowserRouter>
