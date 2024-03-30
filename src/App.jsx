@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import RenderRoutes from './routes/routes';
+import './reset.css';
 
 function App() {
   return (
