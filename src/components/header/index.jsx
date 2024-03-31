@@ -21,6 +21,7 @@ function Header() {
           </ul>
         </nav>
       </header>
+      <div className="header-line" />
     </>
   );
 }
