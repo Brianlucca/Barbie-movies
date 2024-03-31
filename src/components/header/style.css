@@ -46,3 +46,7 @@ li:hover::before {
 li:last-child {
   margin-right: 0;
 }
+.header-line {
+  background-color: #fec7b4;
+  height: 5px;
+}
