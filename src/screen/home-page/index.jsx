@@ -1,6 +1,6 @@
 import Header from '../../components/header';
 import TransitioImages from '../../components/transition-images';
-import ListFilms from '../../components/list-films';
+import MovieList from '../../components/movie-list';
 import './style.css';
 
 function Home() {
@@ -8,7 +8,7 @@ function Home() {
     <>
       <Header />
       <TransitioImages />
-      <ListFilms />
+      <MovieList />
     </>
   );
 }
