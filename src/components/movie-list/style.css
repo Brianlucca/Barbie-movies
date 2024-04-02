@@ -1,9 +1,24 @@
-section img{
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+  section img {
   width: 150px;
+  height: 200px;
   border-radius: 28px;
   padding: 18px;
   display: inline-block;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.container-title p {
+  font-family: "Pacifico", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: #ad0776;
+  font-size: 40px;
+}
+.container-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
