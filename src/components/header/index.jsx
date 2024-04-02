@@ -16,8 +16,10 @@ function Header() {
         </div>
         <nav>
           <ul>
-            <li onClick={handleClick}>Home</li>
-            <li>Sobre</li>
+            <li onClick={handleClick} className="header-list">
+              Home
+            </li>
+            <li className="header-list">Sobre</li>
           </ul>
         </nav>
       </header>

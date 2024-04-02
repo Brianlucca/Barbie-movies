@@ -22,13 +22,13 @@ nav {
 ul {
   display: flex;
 }
-li {
+.header-list {
   color: #f8e2ee;
   margin-right: 50px;
   cursor: pointer;
   position: relative;
 }
-li::before {
+.header-list::before {
   content: "";
   position: absolute;
   left: 0;
@@ -40,10 +40,10 @@ li::before {
   transform-origin: left;
   transition: transform 0.5s ease;
 }
-li:hover::before {
+.header-list:hover::before {
   transform: scaleX(1);
 }
-li:last-child {
+.header-list:last-child {
   margin-right: 0;
 }
 .header-line {

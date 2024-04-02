@@ -7,19 +7,19 @@ import './style.css';
 const responsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 3000 },
-    items: 5,
+    items: 11,
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 9,
+    items: 10,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
-    items: 2,
+    items: 6,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
-    items: 1,
+    items: 3,
   },
 };
 
@@ -28,10 +28,18 @@ function MovieList() {
     <>
       <main>
         <section>
+          <div className="container-title">
+            <p>
+              Bem vindo ao mundo da Barbie,{' '}
+              <p>desfrute do portfolio completo</p>
+            </p>
+          </div>
+        </section>
+        <section>
           <Carousel responsive={responsive} containerClass="carousel-container">
             {images.map((image) => (
               <Link to={`/movies/${image.id}`} key={image.id}>
-                <img src={image.imgUrl} alt="barbie" />
+                <img src={image.imgUrl} alt={image.title} title={image.title} />
               </Link>
             ))}
           </Carousel>
