@@ -6,7 +6,6 @@ export default function Movie() {
   const { id } = useParams();
 
   const movie = images.find((image) => image.id === parseInt(id));
-  console.log(movie);
 
   return (
     <>
