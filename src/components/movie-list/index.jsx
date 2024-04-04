@@ -29,10 +29,7 @@ function MovieList() {
       <main>
         <section>
           <div className="container-title">
-            <p>
-              Bem vindo ao mundo da Barbie,{' '}
-              <p>desfrute do portfolio completo</p>
-            </p>
+            <p>Barbie Movies</p>
           </div>
         </section>
         <section>
