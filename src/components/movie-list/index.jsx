@@ -26,7 +26,7 @@ const responsive = {
 function MovieList() {
   return (
     <>
-      <main>
+      <main className="container-main">
         <section>
           <div className="container-title">
             <p>Barbie Movies</p>
