@@ -28,3 +28,10 @@
     transform: translateX(0);
   }
 }
+
+@media screen and (max-width: 470px) {
+  .image-slider img {
+    width: 50%;
+    height: 200px;
+  }
+}

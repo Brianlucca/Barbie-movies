@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { images } from '../../data';
 import Header from '../header';
+import Footer from '../footer';
 import './style.css';
 
 export default function Movie() {
@@ -20,6 +21,7 @@ export default function Movie() {
             <iframe src={movie.film} allow="autoplay" allowFullScreen />
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );
