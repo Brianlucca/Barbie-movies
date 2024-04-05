@@ -51,11 +51,7 @@ ul {
   height: 5px;
 }
 @media screen and (max-width: 470px) {
-  header {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+   header {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -63,5 +59,4 @@ ul {
   .logo {
     display: none;
   }
-  
 }

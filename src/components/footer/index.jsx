@@ -10,10 +10,18 @@ function Footer() {
             2024 - <a href="">Brian Lucca</a>
           </span>
           <div className="icon-social">
-            <a href="">
+            <a
+              href="https://github.com/Brianlucca?fbclid=PAAaYt1KhOqU8yAwMwYjC63-m4IDFitYTIRMeWXyiWin5E3BHaZODBKtA_ADc"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Github />
             </a>
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/brian-lucca-cardozo/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Linkedin />
             </a>
           </div>
