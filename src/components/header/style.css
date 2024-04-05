@@ -9,6 +9,7 @@ header {
   height: 50px;
   align-items: center;
   display: flex;
+  width: 100%;
 }
 .logo {
   width: 200px;
