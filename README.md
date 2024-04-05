@@ -2,7 +2,11 @@
 Well, the website was a request from my girlfriend and so I had nowhere to go.<br>
 Barbie Movies is a simple website, where all the Barbie movies are listed to watch at any time.
 ### Framework and language
-ReactJs + Vite was used in this application.
+<a href="https://react.dev/" target="_blank">React</a>
++
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a>
++
+<a href="https://vitejs.dev/" target="_blank">Vite</a>
 ### Library
 Lucide was used for the icon library.
 ### Differential
