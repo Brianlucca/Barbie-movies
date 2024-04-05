@@ -1,6 +1,5 @@
-import ReactDOM from 'react-dom/client';
-import RenderRoutes from './routes/routes';
 import './reset.css';
+import RenderRoutes from './routes/routes';
 
 function App() {
   return (
@@ -11,8 +10,5 @@ function App() {
     </>
   );
 }
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
 
 export default App;
