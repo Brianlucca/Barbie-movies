@@ -5,7 +5,7 @@ import './style.css';
 function Header() {
   const navigate = useNavigate();
   function handleClick() {
-    navigate('/home');
+    navigate('/');
   }
 
   return (
