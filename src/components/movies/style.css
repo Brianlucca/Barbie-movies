@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.container-movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(10px, 4vw, 16px);
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ad0776;
+}
+.title-movie {
+  padding: 10px 0 10px;
+}
+.iframe-movie iframe {
+  width: 940px;
+  height: 480px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  .iframe-movie iframe {
+    width: 760px;
+    height: 500px;
+    border-radius: 8px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .container-movie {
+    font-size: clamp(6px, 4vw, 10px);
+  }
+  .iframe-movie iframe {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+  }
+}

@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { images } from '../../data';
 import Header from '../header';
+import './style.css';
 
 export default function Movie() {
   const { id } = useParams();
@@ -11,8 +12,14 @@ export default function Movie() {
     <>
       <div>
         <Header />
-        <h1>{movie.title}</h1>
-        <iframe src={movie.film} width="640" height="480" allow="autoplay" />
+        <div className="container-movie">
+          <div className="title-movie">
+            <h1>{movie.title}</h1>
+          </div>
+          <div className="iframe-movie">
+            <iframe src={movie.film} allow="autoplay" allowFullScreen />
+          </div>
+        </div>
       </div>
     </>
   );
