@@ -11,16 +11,13 @@ function Header() {
   return (
     <>
       <header>
-        <div>
-          <img src={Logo} alt="Logo Barbie" className="logo" />
-        </div>
         <nav>
-          <ul>
-            <li onClick={handleClick} className="header-list">
-              Home
-            </li>
-            <li className="header-list">Sobre</li>
-          </ul>
+          <img
+            src={Logo}
+            alt="Logo Barbie"
+            className="logo"
+            onClick={() => handleClick()}
+          />
         </nav>
       </header>
       <div className="header-line" />
