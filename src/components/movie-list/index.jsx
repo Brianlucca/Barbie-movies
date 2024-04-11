@@ -29,7 +29,10 @@ function MovieList() {
       <main className="container-main">
         <section>
           <div className="container-title">
-            <p>Barbie Movies</p>
+            <p className="title-desktop">
+              Aqui você encontra todos os filmes da Barbie!
+            </p>
+            <p className="title-mobile">Barbie Movies</p>
           </div>
         </section>
         <section>
