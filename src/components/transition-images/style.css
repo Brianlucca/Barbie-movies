@@ -1,0 +1,37 @@
+.image-slider {
+  width: 100%; 
+  overflow: hidden;
+  white-space: nowrap; 
+}
+.image-slider img {
+  width: 50%; 
+  height: 400px;
+  border-radius: 20px;
+  padding: 15px;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  animation: slide 100s infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  33.33% {
+    transform: translateX(-100%);
+  }
+  66.66% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .image-slider img {
+    width: 60%;
+    height: 200px;
+  }
+}
