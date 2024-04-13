@@ -1,7 +1,7 @@
-import Transition10 from '../../../public/assets/image/transition10.jpg';
-import Transition5 from '../../../public/assets/image/transition5.jpg';
 import Transition6 from '../../../public/assets/image/transition6.jpeg';
-import Transition7 from '../../../public/assets/image/transition7.jpeg'
+import Transition1 from '../../../public/assets/image/transition1.jpg';
+import Transition2 from '../../../public/assets/image/transition2.jpg';
+import Transition3 from '../../../public/assets/image/transition3.jpg';
 import './style.css';
 
 function TransitioImages() {
@@ -9,9 +9,9 @@ function TransitioImages() {
     <>
       <div className="image-slider">
         <img src={Transition6} alt="Barbie Movie" />
-        <img src={Transition7} alt="Barbie Movie" />
-        <img src={Transition5} alt="Barbie Movie" />
-        <img src={Transition10} alt="Barbie Movie" />
+        <img src={Transition1} alt="Barbie Movie" />
+        <img src={Transition2} alt="Barbie Movie" />
+        <img src={Transition3} alt="Barbie Movie" />
       </div>
     </>
   );
