@@ -1,7 +1,7 @@
-import Header from '../../components/header';
-import TransitioImages from '../../components/transition-images';
-import MovieList from '../../components/movie-list';
 import Footer from '../../components/footer';
+import Header from '../../components/header';
+import MovieList from '../../components/movie-list';
+import TransitioImages from '../../components/transition-images';
 import './style.css';
 
 function Home() {
